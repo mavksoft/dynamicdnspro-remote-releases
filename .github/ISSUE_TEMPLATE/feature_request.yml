@@ -1,0 +1,14 @@
+name: Feature request
+description: Suggest an improvement for DDNSPro Remote
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: What would you like?
+      description: Describe the feature and the problem it solves
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or other approaches you tried

@@ -1,0 +1,55 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DDNSPro Remote — Dokumentation</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<nav><div class="brand"><img src="https://dynamicdnspro.com/assets/img/logo.png" alt="">DDNSPro Remote</div><div class="langs"><a class="lc" href="es.html">🇪🇸</a> <a class="lc" href="en.html">🇬🇧</a> <span class="lc on">🇩🇪</span> <a class="lc" href="fr.html">🇫🇷</a> <a class="lc" href="it.html">🇮🇹</a> <a class="lc" href="pt.html">🇵🇹</a></div></nav>
+<header>
+<img class="hlogo" src="https://dynamicdnspro.com/assets/img/logo.png" alt="DDNSPro Remote">
+<h1>DDNSPro Remote</h1>
+<p class="tag">Ihre Rechner, einen Klick entfernt.<br>Sicherer WebRTC-Fernzugriff — nativer Viewer für macOS, Remote-Host für Windows.</p>
+<p class="cta"><a class="btn" href="https://github.com/mavksoft/dynamicdnspro-remote-releases/releases/latest">⬇ Aktuelles Release</a>
+<a class="btn ghost" href="https://remote.dynamicdnspro.com">Web-Lobby</a>
+<a class="btn ghost" href="https://github.com/mavksoft/dynamicdnspro-remote-releases">GitHub</a></p>
+</header>
+<main>
+<section id="dl"><h2>Download</h2><div class="dltable">
+<div class="dlrow"><div class="dlk"><img src='https://raw.githubusercontent.com/mavksoft/dynamicdnspro-remote-releases/main/icons/apple.svg' width='15' style='vertical-align:-2px' alt='apple'> <strong>Viewer (macOS)</strong></div><div class="dlv"><a href="https://github.com/mavksoft/dynamicdnspro-remote-releases/releases/latest">DDNSProRemote-macOS.dmg</a> — nativer Client, signiert &amp; notarisiert</div></div>
+<div class="dlrow"><div class="dlk"><img src='https://raw.githubusercontent.com/mavksoft/dynamicdnspro-remote-releases/main/icons/windows.svg' width='15' style='vertical-align:-2px' alt='windows'> <strong>Remote-Host (Windows)</strong></div><div class="dlv"><a href="https://github.com/mavksoft/dynamicdnspro-releases/releases/latest">DynamicDNSPro-Remote-Setup.exe</a> — auf den Zielrechnern installieren</div></div>
+<div class="dlrow"><div class="dlk"><img src='https://dynamicdnspro.com/assets/img/logo.png' width='15' style='vertical-align:-2px'> <strong>Web-Viewer</strong></div><div class="dlv"><a href="https://remote.dynamicdnspro.com">remote.dynamicdnspro.com</a> — Sitzungen aus jedem Browser, ohne Installation</div></div>
+<div class="dlrow"><div class="dlk"><img src='https://dynamicdnspro.com/assets/img/logo.png' width='15' style='vertical-align:-2px'> <strong>Website</strong></div><div class="dlv"><a href="https://dynamicdnspro.com">dynamicdnspro.com</a> — Kundenportal, Pläne und FAQ</div></div></div></section>
+<section><h2>Was ist das</h2><p>DDNSPro Remote ist das Fernzugriffs-Produkt des Dynamic-DNS-Pro-Ökosystems — separat lizenziert, aber mit gemeinsamem Konto, Maschinen und Berechtigungen mit dem Webportal. Installieren Sie den Host auf den verwalteten Rechnern und greifen Sie über den nativen macOS-Viewer oder einen beliebigen Browser zu: Desktop, Dateien, Konsole und Energieaktionen über Ende-zu-Ende-verschlüsseltes WebRTC.</p></section>
+<section><div class="shots"><img src="https://raw.githubusercontent.com/mavksoft/dynamicdnspro-remote-releases/main/screenshots/website.png" alt="screenshot"></div></section>
+<section><h2>Funktionen</h2><div class='cards'>
+<div class='card'><strong>WebRTC-P2P-Sitzungen</strong> — Desktop-Video, Audio und Eingabe mit geringer Latenz, DTLS Ende zu Ende verschlüsselt.</div>
+<div class='card'><strong>Zugriff mit Zustimmung</strong> — die Gegenseite bestätigt jede Sitzung, oder dauerhafte/Wiederverbindungs-Freigabe pro Rechner.</div>
+<div class='card'><strong>Dateimanager</strong> — Remote-Laufwerke durchsuchen, Up-/Downloads per Drag &amp; Drop in der Sitzung.</div>
+<div class='card'><strong>Maschinen-Lobby</strong> — Rechner mit Live-Miniaturen, oder Ad-hoc-Verbindungen per ID + Passwort.</div>
+<div class='card'><strong>RDP-Sitzungswahl</strong> — auf Multi-Session-Hosts bestehende Sitzung wählen oder neue öffnen.</div>
+<div class='card'><strong>Auflösungssteuerung</strong> — Remote-Auflösung im laufenden Betrieb wechseln (Admin-Profile).</div>
+<div class='card'><strong>Warten auf Wiederverbindung</strong> — Remote-Neustart: die Sitzung verbindet sich von selbst wieder.</div>
+<div class='card'><strong>Energieaktionen</strong> — Neustart, Sperren, Strg+Alt+Entf / SAS, Win+D aus der Sitzungsleiste.</div>
+<div class='card'><strong>Signierte Auto-Updates</strong> — Ed25519-Manifeste; macOS-Builds von Apple notarisiert.</div>
+<div class='card'><strong>Sechs Sprachen</strong> — ES / EN / FR / IT / DE / PT.</div></div></section>
+<section><h2>So funktioniert es</h2><ol class='steps'>
+<li><span class='n'>1</span><span>Registrieren Sie sich auf dynamicdnspro.com und aktivieren Sie einen Remote-Plan.</span></li>
+<li><span class='n'>2</span><span>Installieren Sie auf jedem Zielrechner den <strong>Windows-Remote-Host</strong> — er meldet sich mit einer Maschinen-ID unter Ihrem Konto an.</span></li>
+<li><span class='n'>3</span><span>Legen Sie die Zugriffsrichtlinie pro Rechner fest: immer Zustimmung, immer erlauben oder mit Kulanzzeit für Wiederverbindung.</span></li>
+<li><span class='n'>4</span><span>Öffnen Sie den <strong>macOS-Viewer</strong> (oder die Web-Lobby) und melden Sie sich an — Ihre Rechner erscheinen mit Live-Status.</span></li>
+<li><span class='n'>5</span><span>Klick auf einen Rechner → Sitzung öffnet sich: Desktop, Dateien und Energieaktionen in einem Fenster.</span></li></ol></section>
+<section><h2>Voraussetzungen</h2><p class='req'>macOS 12+ für den nativen Viewer · Windows 10/11 für den Remote-Host · Jedes Release enthält <code>.sha256</code>-Prüfsummen aller Binärdateien.</p></section>
+<section><h2>Inhalt dieses Repositories</h2><ul class='files'>
+<li><code>DDNSProRemote-macOS-&lt;Version&gt;.dmg</code> — macOS-Viewer-Installer (Developer ID + notarisiert)</li>
+<li><code>DDNSProRemote-macOS-&lt;Version&gt;.zip</code> — Update-Paket für den integrierten Updater</li>
+<li><code>visor_macos.json</code> — signiertes Versionsmanifest (Ed25519) für den Auto-Updater</li>
+<li><code>visor_macos_appcast.xml</code> — Legacy-Sparkle-Feed für Installationen vor 1.1.0</li>
+<li><code>*.sha256</code> — Prüfsummen für jede Binärdatei</li></ul></section>
+<section><h2>FAQ</h2>
+<details><summary>Ist der Datenverkehr verschlüsselt?</summary><p>Ja — Sitzungen laufen über WebRTC mit DTLS-SRTP; das Signalisieren erfolgt über authentifiziertes TLS. Zustimmung und Richtlinien werden hostseitig durchgesetzt: schlägt die Autorisierung fehl, öffnet keine Sitzung.</p></details>
+<details><summary>Brauche ich ein Dynamic-DNS-Pro-Abo?</summary><p>Remote wird separat lizenziert — Sie können es eigenständig erwerben. Mit bestehendem Konto teilen sich beide Login und Maschinenliste.</p></details>
+<details><summary>Unterschied zwischen Viewer und Host?</summary><p>Der Viewer (dieses Repo) läuft bei Ihnen zum Verbinden; der Host (in <code>dynamicdnspro-releases</code>) läuft auf dem entfernten Rechner.</p></details>
+<details><summary>Verbindung ohne Konto möglich?</summary><p>Ja — Ad-hoc-Sitzungen funktionieren mit ID und Passwort des Remote-Rechners, wie bei klassischen Support-Tools.</p></details></section>
+<section><h2>Support</h2><ul><li>Website &amp; Kundenportal: <a href="https://dynamicdnspro.com">dynamicdnspro.com</a></li>
+<li>Remote-Web-Lobby: <a href="https://remote.dynamicdnspro.com">remote.dynamicdnspro.com</a></li>
+<li>E-Mail: support@it-systems.es</li></ul></section>
+<footer><img src="https://dynamicdnspro.com/assets/img/logo.png" alt=""><br>DDNSPro Remote · © 2026 MavkSoft / IT-Systems<br><a href="https://github.com/mavksoft/dynamicdnspro-remote-releases">GitHub</a> · <a href="https://dynamicdnspro.com">Website</a></footer>
+</main></body></html>
